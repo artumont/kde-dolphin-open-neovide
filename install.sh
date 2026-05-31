@@ -65,6 +65,7 @@ fi
 
 mkdir -p "$USER_SERVICEMENU_DIR"
 cp -f "$SRC_DESKTOP" "$DEST_DESKTOP_PATH"
+chmod +x "$DEST_DESKTOP_PATH"
 echo "Installed service menu to $DEST_DESKTOP_PATH"
 
 echo
