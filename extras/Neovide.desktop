@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=A simple, no-nonsense, cross-platform graphical user interface for Neovim.
+Exec=neovide --no-fork %F
+GenericName=Text Editor
+Icon=neovide
+Name=Neovide
+NoDisplay=false
+PrefersNonDefaultGPU=false
+StartupNotify=false
+StartupWMClass=neovide
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
