@@ -1,2 +1,23 @@
-# kde-dolphin-open-neovide
-Add context menu to Dolphin to easily open Neovide at location on right click. 
+# Dolphin: Open in Neovide
+
+Add context menu to Dolphin to easily open Neovide at location on right click.
+
+Inspired by [Merrit/kde-dolphin-open-vscode](https://github.com/Merrit/kde-dolphin-open-vscode)
+
+## How to install
+
+Execute the following command to install:
+
+```bash
+curl https://raw.githubusercontent.com/artumont/kde-dolphin-open-neovide/refs/heads/main/install.sh | bash
+```
+
+If you have a custom Neovide installation, use the `--app-dir` option to specify the path to the Neovide executable:
+
+## Customization
+
+By default, the extension works only on directories. If you want to enable it on files as well, edit the `openInNeovide.desktop` file and change the `MimeType` line to `all/all` or `inode/directory;{your_type}`.
+
+## Screenshot
+
+![screenshot](screenshots/screenshot.png)
