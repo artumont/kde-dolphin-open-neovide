@@ -12,8 +12,6 @@ Execute the following command to install:
 curl https://raw.githubusercontent.com/artumont/kde-dolphin-open-neovide/refs/heads/main/install.sh | bash
 ```
 
-If you have a custom Neovide installation, use the `--app-dir` option to specify the path to the Neovide executable:
-
 ## Customization
 
 By default, the extension works only on directories. If you want to enable it on files as well, edit the `openInNeovide.desktop` file and change the `MimeType` line to `all/all` or `inode/directory;{your_type}`.
