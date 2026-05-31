@@ -1,0 +1,24 @@
+[Desktop Entry]
+Actions=openInNeovide
+Name = Open in Neovide
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory
+X-KDE-Priority=TopLevel
+Icon=neovide
+
+[Desktop Action openInNeovide]
+Name=Open in Neovide 
+Name[nl]=Openen in Neovide 
+Name[cs]=Otevřít ve Neovide 
+Name[es]=Abrir en Neovide 
+Name[pl]=Otwórz za pomocą Neovide 
+Name[zh]=在 Neovide 中打开
+Name[zh_CN]=在 Neovide 中打开
+Name[de]=In Neovide öffnen
+Name[hi]=Neovide में खोले
+Name[ml]=Neovide ൽ തുറക്കുക
+Name[mr]=Neovide मध्ये उघडा
+Name[kn]=Neovide ನಲ್ಲಿ ತೆರೆಯಿರಿ
+Icon=neovide
+Exec=neovide %u
