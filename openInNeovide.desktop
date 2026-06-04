@@ -21,4 +21,4 @@ Name[ml]=Neovide ൽ തുറക്കുക
 Name[mr]=Neovide मध्ये उघडा
 Name[kn]=Neovide ನಲ್ಲಿ ತೆರೆಯಿರಿ
 Icon=neovide
-Exec=neovide %u
+Exec=bash -lic "neovide %u"

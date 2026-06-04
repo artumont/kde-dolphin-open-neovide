@@ -1,6 +1,6 @@
 [Desktop Entry]
 Comment=A simple, no-nonsense, cross-platform graphical user interface for Neovim.
-Exec=neovide --no-fork %F
+Exec=bash -lic "neovide %F"
 GenericName=Text Editor
 Icon=neovide
 Name=Neovide
