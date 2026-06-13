@@ -9,7 +9,8 @@ Inspired by [Merrit/kde-dolphin-open-vscode](https://github.com/Merrit/kde-dolph
 Execute the following command to install:
 
 ```bash
-curl https://raw.githubusercontent.com/artumont/kde-dolphin-open-neovide/refs/heads/main/install.sh | bash
+chmod +x ./install.sh
+./install.sh
 ```
 
 ## Customization
